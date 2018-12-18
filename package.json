@@ -1,0 +1,19 @@
+{
+  "name": "pokeshop",
+  "version": "1.0.0",
+  "description": "myPortfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loivp13/pokeShop.git"
+  },
+  "author": "masterveloute",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loivp13/pokeShop/issues"
+  },
+  "homepage": "https://github.com/loivp13/pokeShop#readme"
+}
