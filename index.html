@@ -23,7 +23,7 @@
   <body>
     <!-- //=============TITLE========= -->
     <div class="pokemonDaFont">PokeShop</div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
       <!--
         //=============Navbar=========
 
@@ -102,7 +102,7 @@
             placeholder="Search"
             aria-label="Search"
           />
-          <button class="btn btn-outline-success my-2 my-sm-0 mr-5" type="submit">
+          <button class="btn btn-success my-2 my-sm-0 mr-5" type="submit">
             Search
           </button>
         </form>
@@ -110,15 +110,36 @@
     </nav>
 
     <!-- ================Main Body=========== -->
-    
-    <div class='container'>
-      <div class="row">
-        <div class='col-8'>PC</div>
-        <div class="col-4">CART</div>
+
+    <!-- ================PC=========== -->
+    <div class="container-fluid mt-5 rounded mx-4">
+      <div class="row bg-light rounded" >
+        <div class="col-8 border border-success">
+          <h4 class="pc text-center bg-light">PC</h4>
+          <div class="row">
+            <div class="col-4 text-center border border-success pb-2  bg-light">Pokemon</div>
+            <div class="col-2 text-center border border-success pb-2  bg-light">Name</div>
+            <div class="col-1 text-center border border-success pb-2  bg-light">Type</div>
+            <div class="col-1 text-center border border-success pb-2  bg-light">Level</div>
+            <div class="col-1 text-center border border-success pb-2  bg-light">Cost</div>
+            <div class="col-1 text-center border border-success pb-2 border-0"></div>
+          </div>
+          <div class="row">
+            <div class="col-2 border border-success pokemon-male-sprite pl-5"><img src="https://pokeapi.co/media/sprites/pokemon/12.png" alt=""></div>
+            <div class="col-2 border border-success pokemon-female-sprite pl-5"><img src="https://pokeapi.co/media/sprites/pokemon/shiny/12.png" alt=""></div>
+            <div class="col-2 text-center pt-4 border border-success pokemon-name">Butterfree</div>
+            <div class="col-1 text-center pt-4 border border-success pokemon-type">Bug</div>
+            <div class="col-1 text-center pt-4 border border-success pokemon-level">43</div>
+            <div class="col-1 text-center pt-4 border border-success pokemon-cost">645</div>
+            <div class="col-1 text-center pt-4 border border-success border-0"><button class="pokemon-buy ">Buy!</button></div>
+          </div>
+          </div>
+        </div>  
+        <div class="col-4"></div>
       </div>
     </div>
-
-    <div class="footer">&copy MASTERVELOUTE LOIVP13@GMAIL.COM</div>
+<!-- ================END Main Body=========== -->
+    <div class="footer text-center">&copy MASTERVELOUTE LOIVP13@GMAIL.COM</div>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

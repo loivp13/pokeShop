@@ -5,6 +5,9 @@
 body {
   height: 100vh;
   margin: 0px;
+  background-color: #1d976c;
+  font-family: pokemonDaFont;
+  font-size: 1.3em;
 }
 /* * {
   border: 2px red solid;
@@ -39,7 +42,23 @@ body {
   margin-right: 30px;
 }
 
-/* footer */
-footer {
-  text-align: center;
+/* body */
+.text-center {
+  background-color: #96dac2 !important;
+}
+.col-8 {
+  border-width: 10px !important;
+  border-style: groove !important;
+}
+.border-danger {
+  border-width: 2px !important;
+  border-style: solid !important;
+  border-radius: 5px !important;
+}
+.row {
+  background-color: #96dac2 !important;
+}
+.pokemon-buy {
+  border-radius: 50%;
+  background-color: red;
 }
