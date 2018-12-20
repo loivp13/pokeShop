@@ -50,10 +50,9 @@ body {
   border-width: 10px !important;
   border-style: groove !important;
 }
-.border-danger {
-  border-width: 2px !important;
-  border-style: solid !important;
-  border-radius: 5px !important;
+.cart-border-groove {
+  border-width: 10px !important;
+  border-style: groove !important;
 }
 .row {
   background-color: #96dac2 !important;
